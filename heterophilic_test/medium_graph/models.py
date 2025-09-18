@@ -302,7 +302,7 @@ class DGATv2Conv(MessagePassing):
         share_weights: bool = False,
         residual: bool = False,
         no_gate = False,
-        inner_orth: bool = True,
+        inner_orth: bool = False,
         gate_w_orth: bool = True,
         gate_tor: bool = False,
         **kwargs,
